@@ -567,9 +567,9 @@
    * ------------------------------------------------- */
   .btn.full-width,
   button.full-width {
-    width: 100  %;
+    width: 100%;
     margin-right: 0;
-  }
+    }
   
   .btn--medium,
   button.btn--medium {
@@ -1265,7 +1265,7 @@
     content: "";
     height: 2px;
     width: 8rem;
-    background-color: #5b4f96;
+    background-color: var(--blueStyle);
     position: absolute;
     left: 8px;
     top: 0;
@@ -1833,7 +1833,7 @@
 }
 
 .about-desc__slider .slick-dots li button {
-  background: #433a6e;
+  background: var(--redColor);
 }
 
 .about-desc__slider .slick-dots li.slick-active button,
